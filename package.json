@@ -1,0 +1,25 @@
+{
+  "name": "mnatorres.github.back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MNATorres/mi-perfil-back.git"
+  },
+  "author": "Matias Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MNATorres/mi-perfil-back/issues"
+  },
+  "homepage": "https://github.com/MNATorres/mi-perfil-back#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}

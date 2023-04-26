@@ -1,8 +1,10 @@
 {
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/procesar-formulario.php"
-        }
-    ]
-}
+    "functions": {
+      "api/send-message": {
+        "handler": "index.js",
+        "memory": 128,
+        "runtime": "nodejs14.x",
+        "routes": [{ "src": "/send-message", "methods": ["POST"] }]
+      }
+    }
+  }
