@@ -17,14 +17,13 @@ app.post("/send-message", (req, res) => {
     host: 'smtp.ethereal.email',
     port: 587,
     auth: {
-        user: 'della96@ethereal.email',
-        pass: 'mP26CtXD9mAftqmqWP'
+        user: 'agustin.deckow@ethereal.email',
+        pass: 'p7ZfCj6TSpfy53xqG1'
     }
 });
-
   const mailOptions = {
     from: 'della96@ethereal.email',
-    to: "fedejure@gmail.com",
+    to: "mtri21019@gmail.com",
     subject: `New message from ${name}`,
     text: `
       Name: ${name}
