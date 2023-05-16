@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "/send-message",
-            "dest": "/api/send-message"
+            "dest": "/send-message"
         }
     ]
 }
